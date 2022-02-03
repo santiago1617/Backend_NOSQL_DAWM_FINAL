@@ -1,0 +1,11 @@
+###
+POST http://localhost:9000/noticias HTTP/1.1
+Content-Type: application/json
+
+{
+    "tipo":"convenios",
+    "title": "Convenios con otros Estudios",
+    "link_image": "https://cdn.diferenciador.com/imagenes/contrato-y-convenio-og.jpg",
+    "autor": "Santiago Tumbaco",
+    "description": "El Estudio Jurídico Aguirre estrecha lazos con nosotros, y compartimos casos de diferentes áreas compartiendo nuestro conocimiento y experiencia con nuestros distinguidos clientes"
+}
